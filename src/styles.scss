@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+/* Custom styles for JSON Forms */
+.mat-form-field {
+  @apply w-full;
+}
+
+.mat-form-field-wrapper {
+  @apply pb-0;
+}
+
+.mat-form-field-subscript-wrapper {
+  @apply mt-1;
+}
+
+.mat-error {
+  @apply text-red-500 text-sm;
+}
+
+.mat-form-field-infix {
+  @apply border-t-0;
+}
+
+.mat-form-field-label {
+  @apply text-gray-600;
+}
+
+.mat-form-field-underline {
+  @apply bg-gray-300;
+}
+
+.mat-form-field-ripple {
+  @apply bg-blue-500;
+}
+
+.mat-select-value {
+  @apply text-gray-800;
+}
+
+.mat-option {
+  @apply text-gray-800;
+}
+
+.mat-option:hover {
+  @apply bg-gray-100;
+}
+
+.mat-option.mat-selected {
+  @apply bg-blue-50 text-blue-600;
+} 
